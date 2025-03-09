@@ -17,23 +17,26 @@ public class Chair {
         return material;
     }
 
-    public void setMaterial(){
+    public void setMaterial(String material){
         this.material = material;
     }
 
-    public String setColor() {
+    public String setColor(String color) {
+        this.color = color;
+
         return color;
     }
 
-    public void getColor() {
-        this.color = color;
+    public String getColor() {
+        return color;
     }
 
     public int getLegs() {
         return legs;
     }
 
-    public void setLegs(int legs) {
+    public int setLegs(int legs) {
         this.legs = legs;
+        return legs;
     }
 }
